@@ -9,8 +9,6 @@ public interface GlobalConfig { // not topic based
 	@Default("3")
 	int maxRetries();
 	
-	@Default("UPDATE")
-	String operations(); // CUD 
 	
 	@Default
 	String project(); 
